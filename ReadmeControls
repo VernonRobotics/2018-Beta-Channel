@@ -1,0 +1,46 @@
+DriveStick Controls:
+	JoyStick Axis: Normal Controls for meccanum drive
+	Field Orientated Drive: Currently on to use gyro angles to factor into driving. Can be turned on and off
+	Trigger: Sets motor values to half speed for better fine tuning of motion
+	Button 2: (Optional Not yet written) Inverts Motor Controls. May possibly aid in climbing
+	Button 9: Strafe at Constant speed to the left?(needs to be confirmed)
+	Buttons 10: Strafe at Constant speed to the right?(needs to be confirmed)
+	
+	
+UtilityStick Controls: (many of these controls need to optimized but these are the controls as of now)
+	Joystick Y axis: Tower Control (Forward for up, Backward for down)
+	Button 2: Box In
+	Trigger: Box out 
+
+
+
+
+
+
+
+Forward Command:
+	Multiple forward commands
+	Parameters: Distance (double), Speed (double, -1 -> 1), 
+	Range Finder (Rangefinder, three (back and two sides))
+	Two Commands -> Vertical and Horizontal
+
+Range Finders and Other Things:
+	R1-back
+	R2-left
+	R3-right
+	
+	Gyro- G1 (middle)
+	
+	Motors:
+		M1- Front Left
+		M2- Back Left
+		M3- Front Right
+		M4- Back Right
+		
+Turning Around
+	Parameters: Angle (double)
+	
+Timer Values needed in 
+	StartCenterSwitchRight
+	StartCenterSwitchLeft
+	StartCenterScaleLeft
